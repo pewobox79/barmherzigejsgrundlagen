@@ -3,6 +3,12 @@ function greetingGroup(){
     console.log(myGreeting)
 }
 
+
+
+
+
+
+
 greetingGroup() //trigger function
 greeting("martin")
 
@@ -28,15 +34,17 @@ sayNo()
 
 //optional Check
 function greetingWithCheck(name) {
+
     if(name === undefined){
         console.log("kein name vorhanden")
     } else if(name === "Peter"){
         console.log("ganz was anderes")
-    }else{
+    } else{
         const myGreeting = 'Hallo' + ' ' + name
         console.log(myGreeting)
     }
 }
+
 
 greetingWithCheck("Klaus")
 greetingWithCheck('Peter')

@@ -33,10 +33,15 @@ console.log("array", myArray)
 //VERGLEICH
 console.log("vergleich 5 mit 5 als Zahl", 5 == 5)
 console.log("vergleich 5 mit 5 string", 5 === '5') //prüft auch TYPE
+console.log("größer", 5 > 6) // boolean rückgabe false
+console.log("kleiner", 5 < 6) // boolean rückgabe true
+console.log("größer-gleich", 5 >= 6)
+console.log("kleiner-gleich", 5 <= 6)
+console.log('ist nicht gleich', 5 != 6)
 
 //Arithmetischen Operatoren
 let sum = 5 + 3 // Ergebnis: 8
-let rest = 10 % 3 // Ergegnis: 1 (Modulo)
+let rest = 10 % 3 // Ergegnis: 1 (Modulo) => nur der Restwert kommt zurück
 let power = 2 ** 3 // Ergebnis 8 (potenzierung)
 
 //Logische Operatoren
