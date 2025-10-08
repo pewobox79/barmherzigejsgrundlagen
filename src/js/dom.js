@@ -1,5 +1,5 @@
 //Selectors
-const h1Array = document.querySelectorAll('h1') 
+const h1Array = document.querySelectorAll('h1')
 const h3Array = document.querySelectorAll("h3")
 
 //Element by ID
@@ -7,7 +7,7 @@ const contactSection = document.getElementById("contact")
 const root = document.getElementById("root")
 
 
-const telephoneBook =[
+const telephoneBook = [
     {
         name: "Klaus Müller",
         phone: "723848208",
@@ -26,7 +26,7 @@ const telephoneBook =[
 ]
 
 //create Card Element
-function createContactCard(name, phone, email){
+function createContactCard(name, phone, email) {
 
     //create elements / atoms
     const cardSection = document.createElement("section")
@@ -56,28 +56,32 @@ function createContactCard(name, phone, email){
 }
 
 //dynamic phonebook
-telephoneBook.forEach((contact)=>{
+telephoneBook.forEach((contact) => {
 
-    const {name, phone, email} = contact
+    const { name, phone, email } = contact
 
-    createContactCard(name, phone, email)
+    //createContactCard(name, phone, email)
 
 })
 
-
-
-const pageData ={
+//übung für morgen
+const pageData = {
     type: "homepage",
     headline: "Das ist meine Homepage",
-    subLine: "Super Sache",
-    items:[{
-        type: "contact",
-        entries:telephoneBook 
-    },{
-        type: "cars",
-        entries:["mercedes", "audi", "renault"]
-    }]
+    subLine: "",
+    items: [
+        {
+            type: "contact",
+            entries: telephoneBook
+        },
+        {
+            type: "cars",
+            entries: ["mercedes", "audi", "renault"]
+        }
+    ]
 }
+
+
 
 
 //function für CREATE HOMEPAGE
@@ -89,7 +93,3 @@ const pageData ={
 //re-use createContactCard für item[0].entries
 
 //create Elements für cars
-
-
-
-console.log("homepage", homepage)

@@ -2,18 +2,62 @@
 <html>
 
 <head>
-   <!--  <script src="./src/js/datenTypen.js"></script>
+    <!--  <script src="./src/js/datenTypen.js"></script>
     <script src="./src/js/functions.js"></script> -->
+
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 2rem;
+        }
+
+        li {
+            margin: 4px 0;
+        }
+
+        button {
+            margin-left: 10px;
+        }
+    </style>
 </head>
 
-<body> 
+<body>
 
-<h1>JS Grundkurs</h1>
-<h1>meine zweite h1</h1>
+    <div id="root"></div>
 
-<div id="root"></div>
 
+
+    <!--TODO LIST EXERCISE-->
+    <h1>Meine ToDo List</h1>
+
+    <input 
+        id="taskInput" 
+        type="text" 
+        placeholder="Neue Aufgabe eingeben"
+    >
+    <button id="addBtn">Hinzufügen</button>
+    <button id="clearBtn">Liste Löschen</button>
+
+    <ul id="taskList"></ul>
+
+
+
+
+
+
+
+
+
+    <script src="./src/js/toDoList.js"></script>
+    <script src="./src/js/zumschluss.js"></script>
+    <!-- 
+<script src="./src/js/dynamic.js"></script>
+<script src="./src/js/excurseRequest/async.js"></script>
 <script src="./src/js/dom.js"></script>
+<script src="./src/js/utils.js"></script>
+<script src="./src/js/requests.js"></script>-->
+
+
 </body>
 
 </html>

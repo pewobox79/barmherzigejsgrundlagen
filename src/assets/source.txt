@@ -1,0 +1,15 @@
+#links die wir verwendet haben
+
+#fake api todos und mehr...
+https://jsonplaceholder.typicode.com/
+
+#w3c school
+https://www.w3schools.com/js/default.asp
+
+#javascript functions
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
+
+#DOM - Document Object Model
+https://developer.mozilla.org/en-US/docs/Glossary/DOM
+
+
